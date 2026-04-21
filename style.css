@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: 1px 0px 8px;
+}
+
+body nav img {
+    height: 14vh;
+}
+
+body nav div a {
+    padding-inline: 2.5rem;
+    padding-block: 1rem;
+    text-decoration: none;
+    background-color: rgb(223, 164, 8);
+}

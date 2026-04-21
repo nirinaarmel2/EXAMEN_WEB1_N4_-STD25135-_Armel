@@ -6,6 +6,7 @@ HTML5 : Structure sémantique du contenu.
 CSS3 : Design responsive (Flexbox/Grid) et animations douces.
 Google Fonts : Utilisation de polices élégantes.
 
+```
 - Structure du projet
 EXAMEN_WEB1_N4_-STD25135-_Armel/
 ├── index.html
@@ -13,6 +14,7 @@ EXAMEN_WEB1_N4_-STD25135-_Armel/
 │   ├── css/
 │   ├── img/          
 └── README.md
+````
 
 - Développeur :
 Armel - [GitHub](https://github.com/nirinaarmel2)

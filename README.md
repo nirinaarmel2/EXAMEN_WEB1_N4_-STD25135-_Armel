@@ -10,9 +10,8 @@ Examen WEB1 qui a pour objet d'appliquer les notions HTML et CSS acquis lors ini
 ```
 EXAMEN_WEB1_N4_-STD25135-_Armel/
 ├── index.html
-├── assets/
-│   ├── css/
-│   ├── img/          
+├── style.css/
+├── HEI-Site-assets/         
 └── README.md
 ````
 

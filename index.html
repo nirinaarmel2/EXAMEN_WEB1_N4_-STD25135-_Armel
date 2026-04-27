@@ -8,60 +8,278 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <img src="HEI-Site-assets/logo-hei.png" alt="">
-        <div class="bouttonNavig">
-        <nav>
-            <ul>
-                <li><a href="">Acceuil</a></li>
-                <li><a href="">Bourse d'étude</a></li>
-                <li><a href="">Evènement</a></li>
-                <li><a href="">Blog</a></li>
-                <button><a href="">Intranet</a></button>
-            </ul>
+    <header>
+        <div class="navbar">
+            <img src="HEI-Site-assets/logo-hei.png" alt="Logo HEI">
+            <div class="bouttonNavig">
+                <nav>
+                    <ul>
+                        <li><a href="#acceuil">Acceuil</a></li>
+                        <li><a href="#bourse">Bourse d'étude</a></li>
+                        <li><a href="#event">Evénements</a></li>
+                        <li><a href="#Blog">Blog</a></li>
+                        <li><button class="btnIntranet"><a href="#">Intranet</a></button></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </nav>
-</div>
+    </header>
 
         <main>
-        <section class="page1">
+        <section class="page1" id="acceuil">
             <div class="land1">
             <img src="HEI-Site-assets/freepik-export-20240504091736SvaI 1.png" alt="" class="perso1">
             <div class="ecoleHEI">
                 <p class="p1">Haute École d'Informatique</p>
                 <p class="p2">Professionnels du monde entier unis pour former les étudiants malgaches suivant les plus hauts standards.</p>
                 <div class="bouttonINFO">
-                    <button>Informez-vous ici</button>
-                    <button>Emploi du temps</button>
+                    <button class="btnBlanc">Informez-vous ici</button>
+                    <button class="btnOrange">Emploi du temps</button>
                 </div>
                 <p class="p3">Habilitation MeSupRES, suivant l'arrêté n°31309/2023</p>
             </div>
             <img src="HEI-Site-assets/freepik-export-20240504094445XW7e 1.png" alt="" class="perso2">
             </div>
         </section>
-        <section class="page2">
-            <img src="HEI-Site-assets/A-propos-left-1.jpg" alt="">
+
+        <section class="page2" id="apropos">
+            <img src="HEI-Site-assets/A-propos-left-1.jpg" alt="Etudiants HEI">
             <div class="aproposHEI">
                 <h1 class="titre1">À propos de nous</h1>
-                <div>
-                    <div class="titleSection">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <h2 class="titre2">+ 3 ans</h2>
+                <div class="blocApropos">
+                    <div class="blocInfo">
+                        <div class="titleSection">
+                            <div class="fa-solid fa-graduation-cap"></div>
+                            <h2 class="titre2">+ 3 ans</h2>
+                        </div>
+                        <p class="p3">Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l'informatique. Nous sommes un groupe d'experts, de professionnels et des passionnés de l'informatique de Madagascar et du monde entier.</p>
                     </div>
-                    <p class="p3">Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l'informatique. Nous sommes un groupe d'experts, de professionnels et des passionnés de l'informatique de Madagascar et du monde entier.</p>
-                    <div>
-                        <img src="ICONE" alt="">
-                        <h2 class="titre2">+ 250 étudiants</h2>
+
+                    <div class="blocInfo">
+                        <div class="titleSection">
+                            <div class="fa-solid fa-user-graduate"></div>
+                            <h2 class="titre2">+ 250 étudiants</h2>
+                        </div>
+                        <p class="p3">Plus de 250 étudiants et plus d'une dizaine d'entreprises ont déjà fait confiance à notre formation habilitée par l'État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la "grande famille HEI".</p>
                     </div>
-                    <p class="p3">Plus de 250 étudiants et plus d'une dizaine d'entreprises ont déjà fait confiance à notre formation habilitée par l'État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la "grande famille HEI".</p>
-                    <div>
-                        <img src="ICONE" alt="">
-                        <h2 class="titre2">Notre Mission</h2>
+
+                    <div class="blocInfo">
+                        <div class="titleSection">
+                            <div class="fa-solid fa-bullseye"></div>
+                            <h2 class="titre2">Notre Missions</h2>
+                        </div>
+                        <p class="p3">Notre mission est d'amener des jeunes malgaches sur des domaines porteurs comme l'intelligence artificielle, la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.</p>
                     </div>
-                    <p class="p3">Notre mission est d'amener des jeunes malgaches sur des domaines porteurs comme l'intelligence artificielle, la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.</p>
                 </div>
             </div>
         </section>
+
+        <section class="page3" id="equipe">
+            <div class="titreBloc">
+                <h2 class="titre1">L'équipe pédagogique</h2>
+                <p class="p4">
+                    Voici un aperçu des membres de notre équipe pédagogique,
+                    mettant en lumière leur expertise et leur dévouement à l'éducation des étudiants.
+                </p>
+            </div>
+
+            <div class="listeProf">
+                <div class="carteProf">
+                    <div class="cadreImg">
+                        <img src="HEI-Site-assets/Lou-team.png" alt="">
+                    </div>
+                    <h3 class="titre3">Dr Lou Maurica</h3>
+                    <p class="p3">
+                        Docteur-Ingénieur en informatique |
+                        Fondateur et Directeur pédagogique de HEI
+                    </p>
+                </div>
+
+            <div class="carteProf">
+                <div class="cadreImg">
+                    <img src="HEI-Site-assets/Tahina-OK-e1716502943928.png" id="Tahina">
+                </div>
+                <h3 class="titre3">Dr Tahina Ralitera</h3>
+                <p class="p3">
+                    Docteure-Ingénieure, CNRS France |
+                    Prix L'Oréal UNESCO pour les Femmes en Science
+                </p>
+            </div>
+
+            <div class="carteProf">
+                <div class="cadreImg">
+                    <img src="HEI-Site-assets/Annick-team.png" alt="">
+                </div>
+                <h3 class="titre3">Yannick Raharijona</h3>
+                <p class="p3">Responsable technique ML chez Rocket Science </p>
+            </div>
+        </div>
+        </section>
+
+        <section class="page4">
+            <div class="land2">
+            <img src="HEI-Site-assets/aperçu-de-debouche-left.png" alt="" class="imgLeft">
+            <div class="Textaperçu">
+                <h2 class="titreOrange">Un aperçu des Débouchés</h2>
+                <h3 class="p3">Formez-vous à une panoplie de métiers du numérique avec nous et venez acquerir les fondements de la programmation (qui vous servira pour les différents métiers) !</h3>
+                <h3 class="p3">Ce sot des métiers porteur, des métiers du présent, des métiers du futur ...</h3>
+                <h3 class="p3">Développeur back end, développeur front end, développeurs mobile, chefs de projet, exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI, administrateur systeme et réseau, développeur de sécurité ...</h3>
+            </div>
+            <div>
+                <img src="HEI-Site-assets/chevron.png" alt="" class="chevron">
+                <img src="HEI-Site-assets/aperçu-de-débouche-right.png" alt="" class="imgRigth">
+                <img src="HEI-Site-assets/déco.png" alt="" class="décoPoints">
+            </div>
+        </section>
+
+        <section class="page5" id="domaines">
+            <div class="titreBloc">
+                <h2 class="titre1">Domaines</h2>
+                <p class="p4">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l'avenir.</p>
+            </div>
+            <div class="listeDomaines">
+                <div class="blocDomaine">
+                    <div class="rondDomaine">
+                        <img src="HEI-Site-assets/Ingenierie-logicielle_Plan-de-travail-1-300x300.png" alt="Ingenierie logicielle">
+                    </div>
+                    <h3 class="titre3">Ingénierie logicielle</h3>
+                    <p class="p3">Apprenez les principes de la conception ou le développement de programmes et d'applications web et mobile et explorez le monde fascinant des "codes". A la fin de votre formation, vous serez aptes à proposer des solutions pratiques,</p>
+                </div>
+
+                <div class="blocDomaine blocDomaineMilieu">
+                    <div class="rondDomaine">
+                        <img src="HEI-Site-assets/Intelligence-artificielle_Plan-de-travail-1-300x300.png" alt="Intelligence artificielle">
+                    </div>
+                    <h3 class="titre3">Intelligence artificielle</h3>
+                    <p class="p3">Le monde de la reconnaissance faciale ou la détection d'obstacles par les voitures semi-autonomes vous fascinent ? Ce n'est pas sorcier, cela s'apprend. Apprenez les bases de l'intelligence artificielle lors de vos cours chez HEI.</p>
+                </div>
+
+                <div class="blocDomaine">
+                    <div class="rondDomaine">
+                        <img src="HEI-Site-assets/Cloud-et-cybersecurite_Plan-de-travail-1-scaled.png" alt="Cloud et cybersecurite">
+                    </div>
+                    <h3 class="titre3">Cloud et cybersécurité</h3>
+                    <p class="p3">Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore, devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces. Chez HEI, vous allez vous</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page6" id="admission">
+            <div class="titreBloc">
+                <h2 class="titre1">Admission</h2>
+                <p class="p4">3 étapes simples pour rejoindre HEI.</p>
+            </div>
+            <div class="bandeAdmission">
+                <div class="etapeAdmission1">
+                    <h3 class="numEtape">01</h3>
+                    <p class="p5">Dépôt de dossier</p>
+                    <p class="p3">Pour les bacheliers, de toutes séries sans limite d'âge</p>
+                </div>
+                <div class="chevronAdmission1">
+                    <h3 class="numEtape">></h3>
+                </div>
+                <div class="etapeAdmission2">
+                    <h3 class="numEtape">02</h3>
+                    <p class="p5">Test de niveau</p>
+                    <p class="p3">composé d'une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D</p>
+                </div>
+                <div class="chevronAdmission2">
+                    <h3 class="numEtape">></h3>
+                </div>
+                <div class="etapeAdmission3">
+                    <h3 class="numEtape">03</h3>
+                    <p class="p5">Inscription définitive</p>
+                    <p class="p3">(Si test réussi)</p>
+                </div>
+            </div>
+            <div class="bouttonAdmission">
+                <button class="btnfondBlanc">Informez-vous ici</button>
+            </div>
+        </section>
+
+        <section class="page7">
+            <div class="blocProgramme">
+                <div class="programmeTexte">
+                    <h2 class="titre1">Le programme pédagogique</h2>
+                    <p class="p3">Suivant le système LMD, jusqu'au Master, notre formation repose sur un programme pédagogique qui est conçu en adéquation avec les attentes du marché. La formation est sanctionnée par un diplôme de Licence et de Master en Informatique reconnu par le MesupRes de Madagascar.</p>
+                    <button class="btnfondBlanc">Notre programme</button>
+                </div>
+            </div>
+            <div class="programmeImage">
+                <img src="HEI-Site-assets/ProgrammePedaright.png" alt="Programme HEI">
+            </div>
+        </section>
+
+        <section class="page8">
+            <div class="iconeTechno">
+                <div class="rondTech"><img src="HEI-Site-assets/Java-150x150.png" alt="Java"></div>
+                <div class="rondTech"><img src="HEI-Site-assets/python-150x150.png" alt="Python"></div>
+                <div class="rondTech"><img src="HEI-Site-assets/JS-150x150.png" alt="JS"></div>
+                <div class="rondTech"><img src="HEI-Site-assets/C.png" alt="C"></div>
+                <div class="rondTech"><img src="HEI-Site-assets/TS-150x150.png" alt="TS"></div>
+            </div>
+            <div class="texteTechno">
+                    <div class="titreBloc">
+                        <h2 class="titre1">Les technos et langages utilisés</h2>
+                    </div>
+                    <div class="blocTechno">
+                    <p class="p3">Nos étudiants sont formés à l'utilisation et à la maîtrise des langages de programmation Java et Javascript, C, Python et Typescript.</p>
+                    <p class="p3">Ces cinq langages couvrent une grande variété des domaines de développement logiciel et web, offrant une polyvalence et une robustesse appréciées dans le monde professionnel. Les technos sont utilisées à travers les projets et les cours.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page9" id="partenaires">
+            <div class="titreBloc">
+                <h2 class="titre1">Nos partenaires</h2>
+            </div>
+            <div class="listePartenaires">
+                <div class="logoPart"><img src="HEI-Site-assets/LOGO-NEXTA.webp" alt="NEXTA"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/BE PARTNERS.png" alt="B Partners"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/Yooz-2023-Logo-2-300x99.png" alt="YOOZ"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/logo-etech.png" alt="etech"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/Logo-Numer-vf.png" alt="Numer"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/PN_Logo_baseline_color_ENG.png" alt="Passerelles Numeriques"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/YIF_LOGO_512x512_BL_on_WH-1-300x221.png" alt="YIF"></div>
+                <div class="logoPart"><img src="HEI-Site-assets/logo-kante-company-1.png" alt="Kante"></div>
+            </div>
+        </section>
     </main>
+
+        <section class="footerHEI">
+            <div class="footerContenu">
+                <div class="footerBloc">
+                    <img src="HEI-Site-assets/logo-hei.png" alt="Logo HEI">
+                    <p class="policeBlancFooter">Formation habilitée par l'État suivant le système LMD</p>
+                </div>
+                <div class="footerBloc">
+                    <h3 class="titreOrange">Navigation</h3>
+                    <div class="lienFooter"><a href="#acceuil">Acceuil</a></div>
+                    <div class="lienFooter"><a href="#bourse">Bourse d'étude</a></div>
+                    <div class="lienFooter"><a href="#Blog">Blog</a></div>
+                    <div class="lienFooter"><a href="#event">Evénements</a></div>
+                </div>
+                <div class="footerBloc">
+                    <h3 class="titreOrange">Adresse</h3>
+                    <p class="policeBlancFooter">II J 161 R</p>
+                    <p class="policeBlancFooter">Ambodivoanjo Ivandry</p>
+                    <p class="policeBlancFooter">Antananarivo 101</p>
+                </div>
+                <div class="footerBloc">
+                    <h3 class="titreOrange">Média sociaux</h3>
+                    <div class="listeSocial">
+                        <a class="rondSocial" href="#"><div class="fa-brands fa-facebook-f"></div></a>
+                        <a class="rondSocial" href="#"><div class="fa-brands fa-linkedin-in"></div></a>
+                        <a class="rondSocial" href="#"><div class="fa-brands fa-instagram"></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btnTop">
+                <a href="#acceuil"><div class="fa-solid fa-chevron-up"></div></a>
+            </div>
+        </section>
+        <div class="footerBas">
+            <p class="p3">© HEI Madagascar</p>
+        </div>
 </body>
 </html>
